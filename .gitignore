@@ -1,0 +1,8 @@
+csv_demo
+csv_tests
+csv_tests_asan
+*.o
+*.out
+.vscode/
+.idea/
+.DS_Store

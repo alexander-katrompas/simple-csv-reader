@@ -1,0 +1,7 @@
+id,name,category,quantity
+101,Notebook,Office,25
+ABC,Invalid ID,Office,12
+103,Missing Quantity,Office
+104,Too,Many,Fields,Here
+105,Negative Quantity,Office,-3
+106,Valid Final Record,Office,7
