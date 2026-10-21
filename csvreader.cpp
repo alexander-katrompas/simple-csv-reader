@@ -16,6 +16,8 @@
  * @return true when the line contains exactly the expected number of fields.
  * @note This is a constrained educational parser. It does not process quoted
  *       fields, escaped delimiters, or multiline records.
+ *       fields must reference an array containing at least
+ *       expectedFieldCount std::string elements.
  */
 bool parseDelimitedLine(
     const std::string& line,
