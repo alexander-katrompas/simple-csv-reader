@@ -109,6 +109,8 @@ void testDelimitedParsing(TestResult& result) {
  * @return none
  */
 void testProductConversion(TestResult& result) {
+    result.passed = 0;
+    result.total = 0;
 
     std::string validFields[PRODUCT_FIELD_COUNT] = {
         "101", "Notebook", "Office", "25"
